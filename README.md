@@ -16,3 +16,10 @@ Responsive Web -- bisa langsung disesuikan di file css --> style.css
 
 Thanks to codepan, mdusmanansari, septiandwica
 
+## Peringatan
+
+Gunakan informasi yang diperoleh dari API ini secara bijak dan bertanggung jawab. Jangan menggunakan informasi ini untuk tujuan yang tidak etis atau ilegal.
+
+hormat kami @oranginisiald2nd 
+
+ide sc??? [https://github.com/pilarxyz/cek-rekening](https://github.com/itsmarmot/hello)
