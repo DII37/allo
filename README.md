@@ -24,4 +24,4 @@ Gunakan informasi yang diperoleh dari github ini secara bijak dan bertanggung ja
 
 hormat kami @oranginisiald2nd 
 
-ide sc??? [https://github.com/pilarxyz/cek-rekening](https://github.com/itsmarmot/hello)
+ide sc??? https://github.com/itsmarmot/hello
